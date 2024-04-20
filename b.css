@@ -1,0 +1,153 @@
+body{
+    background-color: #525758;
+}
+
+.main-div
+{
+    overflow: auto;
+    margin: 2% 9%;
+}
+
+
+.items_list
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fe7170 ;
+    padding: 15px 10%;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.img-container
+{
+    width: 20px;
+    height: 20px;
+}
+.img-container img
+{
+    max-width: 100%;
+    max-height: 100%;
+    margin: -5px;
+}
+
+
+.mid_section
+{
+    display: flex; 
+}
+.img-div
+{
+    width: 50%;
+    height: auto;
+}
+.img-div img{
+    width: 100%;
+    height: auto;
+    object-fit:contain;
+} 
+.mid_section .text
+{
+    width: 50%;
+    background-image: linear-gradient(to right, #fef5ae, #ffc8db)
+}
+.text h1
+{
+    padding: 80px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    font-size: 3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.text p
+{
+    padding: 90px;
+    padding: 20px 90px;
+    font-size: large;
+}
+.clickMe
+{
+    padding: 90px;
+    padding-top: 30px;
+}
+.clickMe button{
+    padding: 12px 65px;
+    background-color: #fe7170;
+    border: none;
+    color: white;
+}
+
+
+
+.bottom_section
+{
+    display: flex;
+    background-image: linear-gradient(to right , #fef5ae, #ffacf6);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.f1
+{
+    width: 250px;
+    height:200px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+
+}
+.f1 img 
+{
+    width:100%;
+    height: 100%;
+    float: left;
+    object-fit: cover;
+}
+
+.second_div
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 275px;
+    height: 410px;
+}
+
+.second_div img 
+{
+    width:100%;
+    height: 100%;
+    float: left;
+    object-fit:cover;
+}
+
+.first_div
+{
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.ipsum
+{  
+    background-color: #fe7170;
+    padding:20px  30px;
+    position:static;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+.ipsum pre
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    font-weight:900;
+    letter-spacing: 5px; 
+    margin:30px 0px;
+}
+.arrow
+{
+    position: relative;
+    bottom: 26px;
+    left: 50px;
+}
